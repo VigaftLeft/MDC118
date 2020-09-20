@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int numero; // basta igualar o numero por qualquer numero
+    int numero; // basta igualar o numero por qualquer numero.
 
     if (numero % 2 == 0)
     {

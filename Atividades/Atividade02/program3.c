@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int nota; //basta igualar a nota a um numero
+    int nota; //basta igualar a nota a um numero.
 
     switch (nota)
     {

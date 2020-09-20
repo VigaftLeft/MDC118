@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    float preco; // basta igualar o preco a qualquer numero
+    float preco; // basta igualar o preco a qualquer numero.
     if (preco >= 0)
     {
 
