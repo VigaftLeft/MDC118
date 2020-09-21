@@ -11,6 +11,7 @@ int main(void)
         break;
     case 9:
         printf("%s\n", "parabens");
+        break;
     case 4:
         printf("%s\n", "parabens");
     case 0:
