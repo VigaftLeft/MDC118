@@ -14,8 +14,10 @@ int main(void)
         break;
     case 4:
         printf("%s\n", "parabens");
+        break;
     case 0:
         printf("%s\n", "parabens");
+        break;
     default:
         printf("%s\n", "tu escreveu errado mane");
         break;
