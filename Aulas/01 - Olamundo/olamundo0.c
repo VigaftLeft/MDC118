@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    printf("ola mundo!\n");
+    printf("Ola mundo!");
 
     return 0;
 }
