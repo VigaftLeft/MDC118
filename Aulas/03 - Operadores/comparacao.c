@@ -2,6 +2,7 @@
 
 int main(void)
 {
+    /* todas as respostas vao ser 0 de negacao ou 1 de afirmacao */
     int x = 30;
     int y = 20;
     int z;
