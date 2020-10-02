@@ -3,6 +3,9 @@
 int main(void)
 {
     float preco; // basta igualar o preco a qualquer numero.
+    printf("Qual o valor: ");
+    scanf("%f", &preco);
+
     if (preco >= 0)
     {
 
@@ -10,19 +13,19 @@ int main(void)
         {
             float desconto = 0.99;
             float desconto_real = - desconto * 100 + 100;
-            printf("seu preco com desconto e: %.2f, seu desconto foi de %.0f por cento.\n", preco * desconto, desconto_real);
+            printf("seu preco com desconto é de: %.2f, seu desconto foi de %.0f por cento.\n", preco * desconto, desconto_real);
         }
         else if (preco >= 100.01 && preco <= 500)
         {
             float desconto = 0.95;
             float desconto_real = - desconto * 100 + 100;
-            printf("seu preco com desconto e: %.2f, seu desconto foi de %.0f por cento.\n", preco * desconto, desconto_real);
+            printf("seu preco com desconto é de: %.2f, seu desconto foi de %.0f por cento.\n", preco * desconto, desconto_real);
         }
         else
         {
             float desconto = 0.90;
             float desconto_real = - desconto * 100 + 100;
-            printf("seu preco com desconto e: %.2f, seu desconto foi de %.0f por cento.\n", preco * desconto, desconto_real);
+            printf("seu preco com desconto é de: %.2f, seu desconto foi de %.0f por cento.\n", preco * desconto, desconto_real);
         }
     }
     else if (preco < 0)
