@@ -3,12 +3,12 @@
 int main()
 {
     int numInt;
-    printf("digite um numero inteiro positivo: ");
-    scanf("%i", &numInt);
+    printf("digite um numero inteiro positivo: "); 
+    scanf("%i", &numInt); //input do usuario
     int fact = numInt;
 
     int n = 1;
-    if (numInt > 0)
+    if (numInt > 0) //numero deve ser maior = 0 para o codigo
     {
         while (n < numInt)
         {
@@ -18,12 +18,12 @@ int main()
         printf("fatorial de %i = %i", numInt, fact);
         printf("\n");
     }
-    else if (numInt == 0)
+    else if (numInt == 0) // caso o inpout for 0 
     {
         printf("fatorial de %i = %i", numInt, n);
         printf("\n");
     }
-    else
+    else //caso o input for negativo
     {
         printf("valor invalido\n");
     }
