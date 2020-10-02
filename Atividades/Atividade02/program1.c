@@ -3,14 +3,24 @@
 int main(void)
 {
     int numero; // basta igualar o numero por qualquer numero.
+    printf("Qual numero: ");
+    scanf("%i", &numero);
 
-    if (numero % 2 == 0)
+    if (numero < 0)
     {
-        printf("o numero e par\n");
+        printf("Resposta Inválida\n");
     }
     else
     {
-        printf("o numero e impar\n");
+        if (numero % 2 == 0)
+        {
+            printf("O número é par\n");
+        }
+        else
+        {
+            printf("O número é impar\n");
+        }
     }
+
     return 0;
 }
