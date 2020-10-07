@@ -12,7 +12,7 @@ int main(void)
     }
     else
     {
-        printf("%.0LF em bytes = %.3LF\n", giga_em_byt, giga_em_byt * 1024 * 1024 * 1024);
+        printf("%.0LF gibabytes em bytes = %.3LF\n", giga_em_byt, giga_em_byt * 1024 * 1024 * 1024);
 
     }
     
