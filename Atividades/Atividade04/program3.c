@@ -11,7 +11,7 @@ int main()
     {
         printf(", logo %c é um caracter\n", (int)x);
     }
-    else if ((int)x > 47 && x < 58)
+    else if (x > 47 && x < 58)
     {
         printf(", logo %c é um número\n", x);
     }
