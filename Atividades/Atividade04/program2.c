@@ -8,7 +8,7 @@ int main()
 
     if (ano < 0)
     {
-        printf("vai tomar no cu mlk, numero negativo eh arrasto\n");
+        printf("Numero negativo invalido\n");
     }
     else
     {
