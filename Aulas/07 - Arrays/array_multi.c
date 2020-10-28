@@ -4,7 +4,7 @@
 int main()
 {
 
-    float notas[4][2];
+    float notas[4][2]; //4 seria as linhas, 2 as colunas
     float medias[4];
 
     // proporcao
@@ -17,9 +17,9 @@ int main()
     {
         for (int j = 0; j < 2; j++)
         {
-            // notas[i][j] = rand()*10.0/RAND_MAX;
-            printf("notas%d,%d = ", i, j);
-            scanf("%f", &notas[i][j]);
+            notas[i][j] = rand()*10.0/RAND_MAX;
+            //printf("notas%d,%d = ", i, j);
+            //scanf("%f", &notas[i][j]);
         }
     }
 

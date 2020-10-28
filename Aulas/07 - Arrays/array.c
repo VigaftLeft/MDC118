@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-const int TAMANHO = 10;
+const int TAMANHO = 10; // uma forma mais segura de mexer com arrays
 
 int main()
 {
-    int numeros[TAMANHO] = {10, 5, 6, 98, -9, 0, 75, 4, 3, 1}; //pode ter o TAMANHO ou nao 
-                                                                //sem o TAMANHO a array fica variavel
+    int numeros1[] = {10, 5, 6, 98, -9, 0, 75, 4, 3, 1}; //pode ter o TAMANHO ou nao 
+    int numeros[TAMANHO];                                                            //sem o TAMANHO a array fica variavel
 
     numeros[0] = 100;
     numeros[7] = -20;
@@ -17,9 +17,6 @@ int main()
     for (int i = 0; i < TAMANHO; i++)
     {
         numeros[i] = i + 1;
-    }
-    for (int i = 0; i < TAMANHO; i++)
-    {
         printf("%i, ", numeros[i]);
     }
     printf("\n");
