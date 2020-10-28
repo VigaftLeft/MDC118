@@ -4,7 +4,7 @@ int main()
 {
     char x;
     printf("Digite um número, caracter ou caracter especial: ");
-    x = getchar();
+    x = getchar(); //ou scanf("%c", &x);
     printf("%i, esta é a representação de acordo com a tabela ASCII", x);
 
     if ((x > 96 && x < 123) || (x > 64 && x < 91))
