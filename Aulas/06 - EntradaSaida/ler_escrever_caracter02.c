@@ -2,7 +2,7 @@
 int main()
 {
     int ch;
-    for (ch = 33; ch <= 100; ch++)
+    for (ch = 33; ch <= 126; ch++)
     {
         putc(ch, stdout);
     }

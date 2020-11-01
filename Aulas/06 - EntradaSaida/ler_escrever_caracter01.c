@@ -6,7 +6,7 @@ int main()
     c = getc(stdin); // ou c = getchar();
 
     printf("Caractere lido: ");
-    putc(c, stdin); // ou putchar(c)
+    putc(c, stdout); // ou putchar(c)
 
     return (0);
 }
