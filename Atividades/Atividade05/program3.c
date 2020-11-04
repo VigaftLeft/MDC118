@@ -1,26 +1,27 @@
+
 #include <stdio.h>
 
-const int TAMANHO = 80;
 int main()
 {   
+    int TAMANHO = 80;
     int array[TAMANHO];
+    printf("digite o numero: ");
 
     for (int i = 0; i < TAMANHO; i++)
     {
-        printf("digite o numero: ");
         scanf("%i", &array[i]);
-    }
-    for (int i = TAMANHO -1; i > -1; i--) //menos um pois o array so conta a partir do 0 logo o fim é menos 1
-    {
-        if (i == 0)
+        if (array[i] == 's')
         {
-            printf("%i.", array[i]);
+            i = TAMANHO;
+            for (int j = i -1; j > -1; j--)
+            {
+                printf("%i", array[j]);
+            }
         }
-        else
-        {
-            printf("%i, ", array[i]);
-        }
+        printf("%i", i);
     }
+
+    
     printf("\n");
 
     return 0;

@@ -5,7 +5,7 @@ const int TAMANHO = 10;
 int main()
 {
     int valores[TAMANHO];
-    int maior = 0;
+    int maior = 0; // valores para comparar com os valores da array
     int menor = 9999999;
 
     for (int i = 0; i < TAMANHO; i++)
