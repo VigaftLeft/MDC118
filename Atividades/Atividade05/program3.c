@@ -7,7 +7,7 @@ int main()
 {
     char array[TAMANHO];
 
-    printf("digite o ate 80 caracter: ");
+    printf("digite ate 80 caracter: ");
     scanf("%s", array); //fgets(array, TAMANHO, stdin) stdin para ler o teclado
 
     for (int i = strlen(array); i > -1; i--) //menos um pois o array so conta a partir do 0 logo o fim é menos 1
