@@ -4,11 +4,13 @@
 int main()
 {
     char nome1[30] = "Carlos";
-    char nome2[30] = "Luis";
+    char nome2[30];
     char x;
 
-    x = memcmp(nome1, nome2, 6);
+    memcpy(nome1, nome2, 6); //copia uma quantidade n de caracateres
     
+    x = memcmp(nome1, nome2, 6); //quando a comparacao da 0 nome1 = nome2
+                                 //qundo acomparacao da -1 nome1 != nome2   
     printf("%i", x);
     
     return 0;
