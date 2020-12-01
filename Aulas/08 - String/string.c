@@ -14,15 +14,15 @@ int main()
     // puts(str);
     printf("a string str = %-30s\n", str);
 
-    for (int i = 0; i < 30; i++)
+    for (int i = 0; i < 30; i++) //escreve os 30 espacos da array
     {
         printf("%c", str[i]);
     }
 
     printf("\nstrlen(str) = %li\n", strlen(str));
-    printf("sizeof(str) %li\n", sizeof(str));
+    printf("sizeof(str) = %li\n", sizeof(str));
 
-    for (int i = 0; i < strlen(str); i++)
+    for (int i = 0; i < strlen(str); i++) //escreve so os caracteres escritos
     {
         printf("%c", str[i]);
     }
