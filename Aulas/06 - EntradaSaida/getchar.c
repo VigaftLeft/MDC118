@@ -2,18 +2,11 @@
 
 int main()
 {
-    char ch; //variavel ch
+    char letra; //variavel ch
     
-    ch = getc(stdin);
-    putc(ch, stdin);
+    letra = getchar(); 
+    putchar(letra);   
     
-    printf("\n------------\n"); //estetica
-    getchar(); //elimina um enter 
-
-    ch = getchar();
-    putchar(ch);   
-    
-    printf("\n"); //estetica
-    
+    printf("\n");
     return 0;
 }

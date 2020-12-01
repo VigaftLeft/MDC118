@@ -1,0 +1,1 @@
+a diferenca entre getc e getchar e justamente a simplificacao da funcao
